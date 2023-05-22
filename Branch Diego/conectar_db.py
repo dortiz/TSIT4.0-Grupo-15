@@ -8,8 +8,8 @@ class Conectar_Base_de_Datos():
                 host = 'localhost',
                 port= 3306,
                 user= 'root',
-                password = 'Lacarta2',
-                db = 'db_ejemplo_innova'
+                password = '1234',
+                db = 'db_group15_innova'
             )
         except mysql.connector.Error as descripcionError:
              print ("¡No se a conectado la base de datos!",descripcionError)
